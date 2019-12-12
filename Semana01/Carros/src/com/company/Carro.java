@@ -1,3 +1,5 @@
+package com.company;
+
 public class Carro
 {
     int potencia;
@@ -21,6 +23,6 @@ public class Carro
 
     void imprimir()
     {
-        System.out.println("O carro"+nomeCarro+" está a velocidade "+getVelocidade()+" km/h");
+        System.out.println("O carro "+nomeCarro+" está na velocidade "+getVelocidade()+" km/h");
     }
 }
