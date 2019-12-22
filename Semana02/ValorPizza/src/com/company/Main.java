@@ -27,10 +27,10 @@ public class Main {
         carrinhoDeCompras.adicionarAoCarrinho(pizza2);
         carrinhoDeCompras.adicionarAoCarrinho(pizza3);
 
-        System.out.println("O valor total é: " + carrinhoDeCompras.calcularValorTotal());
+        System.out.println("O valor total das 3 pizzas é: " + "R$ " + carrinhoDeCompras.calcularValorTotal());
 
         for (String i : Pizza.ingredientesContabilizados.keySet()) {
-            System.out.println("Ingrediente: " + i + "\nQuantidade: " + Pizza.ingredientesContabilizados.get(i) + "\n");
+            System.out.println("\nIngrediente: " + i + "\nQuantidade: " + Pizza.ingredientesContabilizados.get(i) + "\n");
         }
     }
 }
