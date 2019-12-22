@@ -26,16 +26,3 @@ public class CarrinhoDeCompras {
     }
 }
 
-
-/*  ArrayList<Pizza> pizzas=new ArrayList();
-
-    CarrinhoDeCompras(Pizza pizza){
-        this.pizzas = pizzas;
-    }
-    public void addPizza(Pizza pizza){
-        if(pizza.numeroIngrediente<=0){
-            return;
-        }else{
-           pizzas.add(pizza);
-        } isso aki era oq o lucas fez só botei pra te uma ideia
-    }*/
