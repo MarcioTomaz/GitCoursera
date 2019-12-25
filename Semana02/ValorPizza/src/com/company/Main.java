@@ -30,7 +30,7 @@ public class Main {
         System.out.println("O valor total das 3 pizzas é: " + "R$ " + carrinhoDeCompras.calcularValorTotal());
 
         for (String i : Pizza.ingredientesContabilizados.keySet()) {
-            System.out.println("\nSIngrediente: " + i + "\nQuantidade: " + Pizza.ingredientesContabilizados.get(i) + "\n");
+            System.out.println("\nIngrediente: " + i + "\nQuantidade: " + Pizza.ingredientesContabilizados.get(i) + "\n");
         }
     }
 }

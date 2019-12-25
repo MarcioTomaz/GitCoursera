@@ -22,6 +22,7 @@ public class CarrinhoDeCompras {
     }
 
     public void todosIngredientes(){
+
         Pizza.ingredientesContabilizados.keySet();
     }
 }
