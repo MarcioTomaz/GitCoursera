@@ -1,22 +1,22 @@
-package com.company;
+package Carros;
 
 public class Carro
 {
-    int potencia;
+    public int potencia;
     int velocidade;
     String nomeCarro;
 
-    void acelerar()
+    public void acelerar()
     {
         velocidade += potencia;
     }
 
-    void frear()
+    public void frear()
     {
         velocidade = velocidade / 2;
     }
 
-    int getVelocidade()
+    public int getVelocidade()
     {
         return velocidade;
     }
